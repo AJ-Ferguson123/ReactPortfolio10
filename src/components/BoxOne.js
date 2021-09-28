@@ -1,0 +1,31 @@
+import React from 'react'
+import clone from '../images/redditClone.jpg'
+
+function BoxOne() {
+    return (
+        <div>
+            <div className="max-w-sm mt-8 rounded overflow-hidden shadow-lg">
+              <img src={clone} className="w-full mt-4 rounded-t-md" ></img>
+              <div className="px-6 py-4 bg-gray-200">
+                <div className="font-bold text-xl mb-2 pt-2 text-center">Reddit Clone</div>
+                <p className="text-gray-700 text-base mt-4">
+                    A Front End clone of Reddit using technologies like ReactJS and TailWindsCSS. This was me getting used to the worlderful world of TailWindCSS and applying some shorthand.
+                </p>
+              </div>
+                <div className="px-6 pt-4 pb-2 bg-gray-300">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                        #ReactJS
+                    </span>
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                        #TailWindCSS
+                    </span>
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                        #MongoDB
+                    </span>
+                </div>
+                </div>           
+        </div>
+    )
+}
+
+export default BoxOne;

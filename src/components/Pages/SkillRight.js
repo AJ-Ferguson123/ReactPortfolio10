@@ -2,23 +2,32 @@ import React from 'react'
 import {FaReact, FaNodeJs, FaHtml5} from 'react-icons/fa'
 import {SiTailwindcss, SiJavascript, SiNpm} from 'react-icons/si'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 function SkillRight() {
+    AOS.init({
+        useClassNames: true,
+      });
+
     return (
         <>
-        <div className="max-w-4xl mx-auto justify-content justify-center py-12" id="tech">
-            <p className="text-2xl text-black text-center sm:text-4xl pt-4 font-bold">
+        <div className="max-w-4xl mx-auto justify-content justify-center py-16" data-aos="fade-up"
+     data-aos-anchor-placement="center-center" data-aos-duration="3000">
+            <p className="text-2xl text-black text-center sm:text-4xl py-16 font-bold">
                 Tech Stack
             </p>
-            </div>
-        <div class="grid grid-flow-col grid-cols-3 grid-rows-2 gap-4 justify-items-stretch">           
-                <div className="techStack">
+            
+        <div class="grid grid-flow-col grid-cols-3 grid-rows-2 gap-4 justify-center">           
+                <div className="techStack hover:-rotate-180">
                     <FaReact color="#00d8ff" className="mt-4" />
                     <p className="pt-2">
                         React
                     </p>
                 </div>
-                <div className=" techStack">
-                    <FaNodeJs color="" className="mt-4 text-green-600" />
+                <div className="techStack">
+                    <FaNodeJs color="" className="mt-4 text-green-600 hover:-rotate-180" />
                     <p className="pt-2">
                         NodeJS
                     </p>
@@ -47,7 +56,8 @@ function SkillRight() {
                     <p className="pt-2">
                         NPM
                     </p>
-                </div>            
+                </div>
+                </div>
         </div>
         </>
     )
