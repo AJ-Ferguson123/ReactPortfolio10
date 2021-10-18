@@ -15,21 +15,21 @@ function Footer() {
                             </span>
                     </a>         
                     <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-600 hover:bg-gray-900 rounded-full hover:text-blue-300
-                    transition-colors duration-300" href="https://github.com/AJ-Ferguson123">
+                    transition-colors duration-300" href="https://linkedin.com/in/aaron-j-ferguson">
                         <FaLinkedin />
                             <span className="sr-only">
                                 LinkedIn 
                             </span>
                     </a>    
                     <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-red-500 hover:bg-gray-900 rounded-full hover:text-pink-400
-                    transition-colors duration-300" href="https://github.com/AJ-Ferguson123">
+                    transition-colors duration-300" href="https://instagram.com/runawayrover02">
                         <GrInstagram />
                             <span className="sr-only">
                                 InstaGram 
                             </span>
                     </a>               
                     <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-900 rounded-full hover:text-white
-                    transition-colors duration-300" href="https://github.com/AJ-Ferguson123">
+                    transition-colors duration-300" href="mailto:ajferguson@protonmail.com">
                         <SiProtonmail />
                             <span className="sr-only">
                                 eMail 

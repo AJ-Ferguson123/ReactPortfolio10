@@ -12,7 +12,7 @@ function About() {
                 I am a passionate full stack software developer. My main focus is on the front end UI/UX design to make websites easy to navigate and use for every skill level. 
             </p>
         <ScrollIntoView selector={'#tech'}>
-            <div className="mx-auto p-20">
+            <div className="mx-auto pt-20">
                 <FiChevronDown className="animate-bounce mx-auto text-3xl text-blue-100 border-b-2" />
             </div>
         </ScrollIntoView>

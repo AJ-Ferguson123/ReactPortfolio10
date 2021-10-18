@@ -13,14 +13,13 @@ function SkillRight() {
 
     return (
         <>
-        <div className="max-w-4xl mx-auto justify-content justify-center py-16" data-aos="fade-up"
-     data-aos-anchor-placement="center-center" data-aos-duration="3000">
+        <div className="max-w-4xl mx-auto justify-content justify-center pt-4 pb-16" data-aos="fade-up"
+     data-aos-anchor-placement="center-center" data-aos-duration="200">
             <p className="text-2xl text-black text-center sm:text-4xl py-16 font-bold">
                 Tech Stack
-            </p>
-            
+            </p>            
         <div class="grid grid-flow-col grid-cols-3 grid-rows-2 gap-4 justify-center">           
-                <div className="techStack hover:-rotate-180">
+                <div className="techStack">
                     <FaReact color="#00d8ff" className="mt-4" />
                     <p className="pt-2">
                         React
