@@ -6,12 +6,12 @@ import Contact from './components/Contact'
 import Footer from './components/Footer';
 import SkillRight from './components/Pages/SkillRight';
 import Box from './components/Box';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
-AOS.init({
-  useClassNames: false,
-});
+// AOS.init({
+//   useClassNames: true,
+// });
 
 function App() 
 {   
@@ -22,7 +22,7 @@ function App()
         <SkillRight />
         <Box />
         <Contact />
-        <Footer />
+        {/* <Footer /> */}
     </div>
   );
 }

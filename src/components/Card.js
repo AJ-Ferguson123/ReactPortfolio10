@@ -9,9 +9,11 @@ import {SiProtonmail} from 'react-icons/si'
         <div className="w-full">
             <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5">
                 <div className="">
+                  <a href="https://www.tudorwatch.com/en/watches/black-bay/m79230n-0005" alt="Black Bay Noir from Tudor Watches"    target="_blank">  
                     <img className="w-32 mx-auto shadow-xl rounded-full drop-shadow-sm"
                        src={profile} alt="watch">
                     </img>
+                  </a>  
                 </div>
                 <div className="text-center mt-5">
                     <p className="text-xl sm:text-2xl text-gray-900">

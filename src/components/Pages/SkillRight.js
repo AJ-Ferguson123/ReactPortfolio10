@@ -2,16 +2,9 @@ import React from 'react'
 import {FaReact, FaNodeJs, FaHtml5} from 'react-icons/fa'
 import {SiTailwindcss, SiJavascript, SiNpm} from 'react-icons/si'
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
 
 function SkillRight() {
-    AOS.init({
-        useClassNames: true,
-      });
-
-    return (
+   return (
         <>
         <div className="max-w-4xl mx-auto justify-content justify-center pt-4 pb-16" data-aos="fade-up"
      data-aos-anchor-placement="center-center" data-aos-duration="200">

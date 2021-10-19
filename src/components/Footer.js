@@ -4,13 +4,11 @@ import {GrInstagram} from 'react-icons/gr'
 import {SiProtonmail} from 'react-icons/si'
 
 
-
 function Footer() {
-
-    return(
-        <div className="py-10 border-t-1/2">
+  return(
+        <div className="py-10">
             <div className="flex justify-center mt-4">
-            <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-700 hover:bg-gray-900 rounded-full hover:text-gray-300
+            <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-700 hover:bg-green-400 rounded-full hover:text-gray-300
                     transition-colors duration-300" href="https://github.com/AJ-Ferguson123" target="_blank">
                         <FaGithubSquare />
                             <span className="sr-only">
@@ -39,12 +37,12 @@ function Footer() {
                             </span>
                     </a>   
             </div>
-            <div className="flex justify-center mt-4">
-                <p className="text-black mb-4">
+            <div className="animate-pulse flex justify-center content-center mt-4 bg-green-300 rounded-xl shadow-2xl">
+                <p className="text-gray-800 my-4">
                     made with 
-                    <span className="mr-10" role="link" aria-label="heart">
+                    <span className="mr-2" role="link" aria-label="heart">
                         <br />
-                    ♡ by <a className="ml-1 text-blue-600 hover:underline hover:text-green-400" href="mailto:ajferguson@protonmail.com">
+                    ♡ by <a className="ml-1 text-blue-800 hover:underline hover:text-gray-800" href="mailto:ajferguson@protonmail.com">
                         AJF</a>
                     </span>
                 </p>
