@@ -2,10 +2,15 @@ import React from 'react'
 import {FaGithubSquare, FaLinkedin} from 'react-icons/fa'
 import {GrInstagram} from 'react-icons/gr'
 import {SiProtonmail} from 'react-icons/si'
+import Aos from 'aos'
+
+import "aos/dist/aos.css"
+
+Aos.init();
 
 function Footer() {
     return(
-        <div className="py-5 border-t-1/2">
+        <div className="py-10 border-t-1/2">
             <div className="flex justify-center mt-4">
             <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-700 hover:bg-gray-900 rounded-full hover:text-gray-300
                     transition-colors duration-300" href="https://github.com/AJ-Ferguson123">

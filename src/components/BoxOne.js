@@ -1,9 +1,14 @@
 import React from 'react'
 import clone from '../images/redditClone.jpg'
+import Aos from 'aos';
+
+import "aos/dist/aos.css";
+
+Aos.init();
 
 function BoxOne() {
     return (
-        <div>
+        <div className="" data-aos="zoom-out-down" data-aos-delay="50" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic">
             <div className="max-w-sm mt-8 rounded overflow-hidden shadow-lg">
                 <a className=" " href="https://cuttingboardacademy.org/" target="_blank">
                 <img src={clone} className="w-full mt-4 rounded-t-md" ></img>

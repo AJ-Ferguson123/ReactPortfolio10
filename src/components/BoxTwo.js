@@ -1,5 +1,10 @@
 import React from 'react'
 import decal from '../images/decalOutlaw.jpg'
+import Aos from 'aos'
+
+import "aos/dist/aos.css";
+
+Aos.init();
 
 function BoxTwo() {
     return (
@@ -14,7 +19,7 @@ function BoxTwo() {
                     This was the very first paid project I was involved in creating, deploying, and maintaining. The webiste was produced using WordPress & available plugins.
                 </p>
               </div>
-                <div className="px-6 pt-4 pb-2 bg-gray-300 flex">
+                <div className="px-6 pt-4 pb-2 bg-gray-300 flex" data-aos="zoom-out-left" data-aos-delay="50" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic">
                     <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                         #WordPress
                     </span>

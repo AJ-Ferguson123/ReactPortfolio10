@@ -1,10 +1,15 @@
 import React from 'react'
 import board from '../images/cuttingBoard.jpg'
+import Aos from 'aos'
+
+import "aos/dist/aos.css";
+
+Aos.init();
 
 function BoxThree() {
     return (
         <div>
-            <div className="max-w-sm mt-8 rounded overflow-hidden shadow-lg">
+            <div className="max-w-sm mt-8 rounded overflow-hidden shadow-lg" data-aos="zoom-out-up" data-aos-delay="50" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic">
                 <a className=" " href="https://cuttingboardacademy.org/" target="_blank">
                     <img src={board} className="w-full mt-4 rounded-t-md"></img>
               </a>
