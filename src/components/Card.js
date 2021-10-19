@@ -23,28 +23,28 @@ import {SiProtonmail} from 'react-icons/si'
                     <div className="flex self-auto justify-center mt-4">
 
                     <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-700 hover:bg-gray-900 rounded-full hover:text-gray-300
-                    transition-colors duration-300" href="https://github.com/AJ-Ferguson123">
+                    transition-colors duration-300" href="https://github.com/AJ-Ferguson123" target="_blank">
                         <FaGithubSquare />
                             <span className="sr-only">
                                 GitHub 
                             </span>
                     </a>         
                     <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-600 hover:bg-gray-900 rounded-full hover:text-blue-300
-                    transition-colors duration-300" href="https://github.com/AJ-Ferguson123">
+                    transition-colors duration-300" href="https://linkedin.com/in/aaron-j-ferguson" target="_blank">
                         <FaLinkedin />
                             <span className="sr-only">
                                 LinkedIn 
                             </span>
                     </a>    
                     <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-red-500 hover:bg-gray-900 rounded-full hover:text-pink-400
-                    transition-colors duration-300" href="https://github.com/AJ-Ferguson123">
+                    transition-colors duration-300" href="https://instagram.com/runawayrover02" target="_blank">
                         <GrInstagram />
                             <span className="sr-only">
                                 InstaGram 
                             </span>
                     </a>               
                     <a className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-900 rounded-full hover:text-white
-                    transition-colors duration-300" href="https://github.com/AJ-Ferguson123">
+                    transition-colors duration-300" href="mailto:ajferguson@protonmail.com" target="_blank">
                         <SiProtonmail />
                             <span className="sr-only">
                                 eMail 

@@ -1,15 +1,16 @@
 import React from 'react'
-import decal from '../images/decalOutlaw.jpg'
+import decal from '../images/dCcensor.jpg'
 import Aos from 'aos'
 
 import "aos/dist/aos.css";
 
-Aos.init();
 
 function BoxTwo() {
+    Aos.init();
     return (
         <div>
-            <div className="max-w-sm mt-8 rounded overflow-hidden shadow-lg">
+            <div className="max-w-sm mt-8 rounded overflow-hidden shadow-lg" data-aos="flip-left"
+        data-aos-anchor-placement="center-center">
                 <a className=" " href="https://decaloutlaw.com" target="_blank">
                     <img src={decal} className="w-full mt-4 rounded-t-md"></img>
                 </a>
